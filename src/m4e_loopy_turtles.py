@@ -50,13 +50,13 @@ window = rg.TurtleWindow()
 
 blue_turtle = rg.SimpleTurtle('turtle')
 blue_turtle.pen = rg.Pen('midnight blue', 3)
-blue_turtle.speed = 10  # Fast
+blue_turtle.speed = 50  # Fast
 
 # The first square will be 300 x 300 pixels:
-size = 300
+size = 700
 
 # Do the indented code 13 times.  Each time draws a square.
-for k in range(13):
+for k in range(19):
 
     # Put the pen down, then draw a square of the given size:
     blue_turtle.draw_square(size)
