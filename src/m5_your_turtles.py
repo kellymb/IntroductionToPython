@@ -49,7 +49,7 @@ for k in range(50):
 
 greenTurtle = rg.SimpleTurtle('turtle')
 greenTurtle.pen = rg.Pen('green', 5)
-greenTurtle.speed = 300
+greenTurtle.speed = 200
 
 length = 700
 greenTurtle.pen_up()
